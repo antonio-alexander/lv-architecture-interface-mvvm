@@ -13,8 +13,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="examples" Type="Folder">
 			<Item Name="example_00_architecture.vi" Type="VI" URL="../examples/example_00_architecture.vi"/>
+			<Item Name="example_01.lvlib" Type="Library" URL="../examples/example_01/example_01.lvlib"/>
 		</Item>
 		<Item Name="functional.lvlib" Type="Library" URL="../functional/functional.lvlib"/>
+		<Item Name="interfaces.lvlib" Type="Library" URL="../interfaces/interfaces.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

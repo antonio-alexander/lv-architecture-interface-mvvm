@@ -4,10 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="interfaces" Type="Folder">
-		<Item Name="dark.lvclass" Type="LVClass" URL="../interfaces/dark/dark.lvclass"/>
-		<Item Name="light.lvclass" Type="LVClass" URL="../interfaces/light/light.lvclass"/>
-	</Item>
 	<Item Name="functional.lvlib" Type="Library" URL="../functional/functional.lvlib"/>
+	<Item Name="interfaces.lvlib" Type="Library" URL="../interfaces/interfaces.lvlib"/>
 	<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 </Library>
